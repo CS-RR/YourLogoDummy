@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto de demostración usando Serenity y Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="60ed7bdf2ec2a435959925bd65128db33c6fe65a6cad54c32c805fdfd65e83e2.html">Page Your Logo</a></span>
+                > <span class="truncate-60"><a
+                    href="85700a4226ced3f460fdca68f1a2ae0803575e25d7d61276289ff942437e953d.html">Ver a detalle cada compra y descargar la informacion en pdf </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-04-2022 00:39</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Page Your Logo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario quiero poder visualizar las compras que he realizado
+para poder tener un reporte financiero propio
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Ver a detalle cada compra y descargar la informacion en pdf
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="10ba626681e628a38817df8be678a4c20fb2849d86e2839927800af51077127a.png" title="Given Nikka esta logeada en YourLogo y realiz&oacute; una compra anteriormente
+| user | password |
+| ejemplo@dummy.co | prueba1 |" width="1366"/>
+                <img src="d7ad7dcee0e19e1aef7650e6ca98b442456cc75a5136b8ca9dd042829abf45a8.png" title="Nikka opens the Your logo page" width="1366"/>
+                <img src="efb467e8bc4fb61562205d2f702e9e0b8bfee0a67d7c755398e771fc0bc5f444.png" title="Nikka clicks on Boton para ingresar credenciales" width="1366"/>
+                <img src="dc089831bab7e5fab89869cc95d747b65d5076e2cbffbc739134417d105d4176.png" title="Nikka enters 'ejemplo@dummy.co' into Campo para ingresar correo" width="1366"/>
+                <img src="05c06f1a9fafadb2b0f9c0727f1aa84d267f0636334f889ca1732e6f7ea0ef63.png" title="Nikka enters 'prueba1' into Campo para ingresar password" width="1366"/>
+                <img src="111f1990524b167fc5e0c7991903873926de63348de0fbd6cecc95d71c840bb5.png" title="Nikka clicks on Boton sign in para ingresar con la credenciales puestas" width="1366"/>
+                <img src="10ba626681e628a38817df8be678a4c20fb2849d86e2839927800af51077127a.png" title="Nikka clicks on link para ir a la seccion women" width="1366"/>
+                <img src="52087d7a81aa1a7eb33205abb9bbbf33053bfdaa7395e8d1f64e2a2f73c732c0.png" title="When Ella va a la secci&oacute;n my account y da clic en Order History and Details" width="1366"/>
+                <img src="111f1990524b167fc5e0c7991903873926de63348de0fbd6cecc95d71c840bb5.png" title="Nikka clicks on Boton para ir a configuraciones de cuenta" width="1366"/>
+                <img src="52087d7a81aa1a7eb33205abb9bbbf33053bfdaa7395e8d1f64e2a2f73c732c0.png" title="Nikka clicks on Seccion historial de ordenes" width="1366"/>
+                <img src="ff2d2e96c7623e36416d5c4cafae68bc0a5c9968286c69381918c4ad1579c6d3.png" title="When Da click en Details de alguna compra" width="1366"/>
+                <img src="ff2d2e96c7623e36416d5c4cafae68bc0a5c9968286c69381918c4ad1579c6d3.png" title="Nikka clicks on Ver a detalle una compra" width="1366"/>
+                <img src="9d1d5f3d823f4850eeff14b41c8349492059fc2155b2daea7f3074d08ca7148d.png" title="When Dentro de los detalles escoge la opcion Download you invoice as a Pdf file" width="1366"/>
+                <img src="3f3d9ee53fd72afe88349d85c1bb295f706f13c115b12f12aa62dadc72fe670b.png" title="Nikka clicks on Decarga en pdf los detalles de la compra" width="1366"/>
+                <img src="bb6843f3bed71b3afb972aa79eeb851b6834ae8051a7e1388d9676f51a955bfa.png" title="When En la tabla de historial de compras escoger la columna invoice y dar click en PDF" width="1366"/>
+                <img src="bb6843f3bed71b3afb972aa79eeb851b6834ae8051a7e1388d9676f51a955bfa.png" title="Nikka clicks on Descagar en pdf los detalles de la compra por otro link" width="1366"/>
+                <img src="bb6843f3bed71b3afb972aa79eeb851b6834ae8051a7e1388d9676f51a955bfa.png" title="Then verifica que direcci&oacute;n, prenda y fecha se muestren
+| direccion | date | prenda |
+| Delivery address | 04/11/2022 | Faded Short Sleeve T-shirts |: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
